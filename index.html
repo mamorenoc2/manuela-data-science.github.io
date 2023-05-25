@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuela</title>
+    <!-- ==================  FONT AWESOME =============== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ==================  CSS ======================== -->
+    <link rel="stylesheet" href="/manuela-data-science.github.io/assets/css/style.css">
+</head>
+<body>
+    <!-- ==================  SWITCHER STYLER ====================== -->
+    <input type="checkbox" name="" id="day-night" />
+
+    <div class="style__switcher">
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+    </div>
+    <!-- ==================  HEADER ====================== -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Manuela</a>
+
+            <input type="checkbox" id="nav-toggler">
+
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
+                <li class="nav__item"><a href="#qualification" class="nav__link">Formación</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Servicios</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Portafolio</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+            </ul>
+
+            
+        </nav>
+    </header>
+    <!-- ==================  MAIN ====================== -->
+    <main class="main">
+    <!-- ==================  HOME ====================== -->
+    <section class="home" id="home">
+        <div class="home__container container grid">
+            <div class="home__content">
+                <span class="home__small">Hola</span>
+                <h1 class="home__title"><span>Soy</span> Manuela! <br> <span> Amante de los Datos</span></h1>
+                <p class="home__description">
+                    Soy una apasionada científica de datos con un profundo amor por la investigación y la tecnología. Disfruto mucho enfrentando desafíos y trabajando en proyectos emocionantes que requieren pensar de manera creativa y analítica al mismo tiempo. Mi objetivo principal es contribuir al crecimiento y desarrollo de la ciencia de datos, impulsando un impacto positivo en diversas industrias.
+                </p>
+                <div class="home__btns">
+                    <a href="#contact" class="btn">Contrátame</a>
+                    <a href="#work" class="btn btn--transparent">Portafolio</a>
+
+                </div>
+            </div>
+            <div class="home__img-wrapper">
+                <img src="/Web-Developer-Porfolio/assets/img/profile.png" alt="" class="home__img">
+            </div>
+        </div>
+    </section>
+    <!-- ==================  ABOUT ====================== -->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__img-wrapper">
+                <img src="/Web-Developer-Porfolio/assets/img/about.png" alt="About me" class="about__img">
+                
+            </div>
+            <div class="about__container">
+                <h2 class="section__title" data-title="¿Quien soy yo?">
+                    Soy Manuela Moreno, una Desarrolladora Web Enfocada en Front-End
+                </h2>
+                <p class="about__description"> Soy una persona apasionada por el mundo de los datos con una curiosidad innata y un amor por la investigación que ha estado conmigo desde que era una niña pequeña. Siempre he estado fascinada por el mundo que me rodea y disfruto explorando y buscando respuestas a preguntas intrigantes. Mi curiosidad natural me ha llevado a seguir una carrera en ciencia de datos, donde puedo combinar mi amor por la exploración y el descubrimiento con mi fascinación por la tecnología. </p>
+                <p class="about__description_2">Lo que más me apasiona de la ciencia de datos es la capacidad de explorar y analizar datos de manera creativa, descubriendo información valiosa que puede tener un impacto positivo en diversos campos. Me encanta sumergirme en los datos, encontrar patrones ocultos y contar historias a través de la visualización de datos. Estoy emocionada por continuar aprendiendo y creciendo en este campo y utilizar mi experiencia en ciencia de datos para abordar desafíos complejos y generar un impacto positivo.</p>
+
+                <ul class="about__data grid">
+                    <li class="data__item">
+                        <h3 class="data__title">Nombre:</h3>
+                        <span class="data__description">Manuela Moreno Cordoba</span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">Edad:</h3>
+                        <span class="data__description">21 años</span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">Desde:</h3>
+                        <span class="data__description">Antioquia - Colombia</span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">Correo:</h3>
+                        <span class="data__description">mamorenoc2@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="about__bottom">
+                    <a href="" class="btn">Descarga mi CV</a>
+    
+                    <div class="about__social-links">
+                        <a href="https://twitter.com/mamorenoc2" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mamorenoc2/" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mamorenoc2/" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/mamorenoc2" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+
+            
+        </div>
+    </section>
+    <!-- ==============  QUALIFICATION =================== -->
+    <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="Mi Recorrido">Formación</h2>
+        <div class="resume__container container grid">
+            <div class="resume__group">
+                <h3 class="resume__heading">Educación</h3>
+                <div class="resume__items">
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Ingeniería en Sistemas</h3>
+                                <span class="resume__date">2020 - Presente</span>
+                            </div>
+                                <p class="resume__description">Ingeniería de Sistemas ofrece una formación integral en las áreas fundamentales de la computación, formando profesionales que entiendan las necesidades de la sociedad y las organizaciones, con el fin de proponer soluciones eficientes e innovadoras basadas en la computación. </p>
+                        </div>
+                    </div>
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Data Scientist: Machine Learning</h3>
+                                <span class="resume__date">Nov 2022 - Sep 2023</span>
+                            </div>
+                            <p class="resume__description">En este curso de certificación profesional, se aprende los fundamentos de la ciencia de datos, luego se profundiza en la elaboración de predicciones con aprendizaje automático e incluso en la creación de redes neuronales. Organizo datos complejos: con el uso de NumPy, pandas y SQL para hablar con bases de datos y manipular tablas. Sumerjirse en el aprendizaje automático: creación modelos que puedan automatizar procesos, reconocer patrones y hacer recomendaciones. Preparación de carrera: prepárese para el trabajo con proyectos de portafolio y assestments</p>
+                        </div>
+                    </div>
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://platzi.com/" target="_blank">Platzi</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Data Analyst</h3>
+                                <span class="resume__date">May 2023 - Jul 2023</span>
+                            </div>
+                            <p class="resume__description">En la ruta de aprendizaje de Data Analyst se responde preguntas que agreguen valor a la organización a través de datos. Extrae datos recolectados y los analiza para buscar información valiosa para generar estrategias. Las presenta usando storytelling y dashboards con gráficas que ayudan a la toma de decisiones de negocio a otras personas de la organización.Con herramientas como SQL, Excel, Power BI y lenguajes de programación como R y Python forman parte de herramientas usadas por analistas de datos.</p>
+                        </div>
+                    </div>
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://platzi.com/" target="_blank">Platzi</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Data Scientist con Python</h3>
+                                <span class="resume__date">Jul 2023 - Sep 2023</span>
+                            </div>
+                            <p class="resume__description">En la ruta de aprendizaje de Data Scientist la idea es entiender el negocio y sus datos para poder responder preguntas que agreguen valor a la organización. Colabora con la creación de modelos de machine learning para integrarlos a aplicaciones de software. Utiliza lenguajes de programación como Python, bases de datos SQL como PostgreSQL y NoSQL como MongoDB y Elasticsearch. Tienen un conocimiento de matemáticas aplicadas a data science y de algoritmos de machine learning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="resume__group">
+                <h3 class="resume__heading">Experiencia y Competencias</h3>
+                <div class="resume__items">
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Desarrolladora web Junior</h3>
+                                <span class="resume__date">Ene 2023 - Presente</span>
+                            </div>
+                                <p class="resume__description">NOVA es un grupo estudiantil de la Universidad EAFIT, enfocado en el área de tecnología e innovación; Es un espacio para aprender, crear y transmitir conocimientos sobre nuevas tecnologías, desarrollo y programación de software, así como temas relevantes de la industria 4.0. </p>
+                        </div>
+                    </div>
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Miembro</h3>
+                                <span class="resume__date">Ago 2021 - Presente</span>
+                            </div>
+                                <p class="resume__description">La Organización Estudiantil, creada en 1987, es ahora el grupo estudiantil más grande de la Universidad EAFIT, el cual te ofrece una experiencia cercana a una organización real, permitiéndote conocer y trabajar en las áreas de mercadeo, finanzas, gestión humana y logística, especialmente en Ingenieria en sistemas. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================  SERVICES ==================== -->
+
+    <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Lo que haré por tí">¿Por qué contratarme?</h2>
+        <div class="services__container container grid">
+            <div class="services__item">
+                <i class="fa-solid fa-pen-to-square services__icon"></i>
+                <h3 class="services__title">Diseño web personalizado</h3>
+                <p class="services__description">Crearé un diseño atractivo y único que refleje la identidad de tu marca y atraiga a los usuarios.</p>
+                <span class="services__no">01</span>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-laptop services__icon"></i>
+                <h3 class="services__title">Desarrollo de interfaces responsivas</h3>
+                <p class="services__description">Crearé interfaces que se adapten a diferentes dispositivos, garantizando una experiencia de usuario consistente.</p>
+                <span class="services__no">02</span>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-chart-area services__icon"></i>
+                <h3 class="services__title">Optimización de rendimiento</h3>
+                <p class="services__description">Optimizaré el rendimiento de tu sitio web para cargar rápidamente y mejorar la retención de usuarios.</p>
+                <span class="services__no">03</span>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-magnifying-glass services__icon"></i>
+                <h3 class="services__title">SEO</h3>
+                <p class="services__description">Implementaré estrategias y mejores prácticas de SEO para mejorar la visibilidad y el ranking de tu sitio web en los motores de búsqueda.</p>
+                <span class="services__no">04</span>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-eye services__icon"></i>
+                <h3 class="services__title">Mejora de accesibilidad</h3>
+                <p class="services__description">Implementaré prácticas y estándares de accesibilidad para asegurar que tu sitio web sea usable para todos los usuarios.</p>
+                <span class="services__no">05</span>
+            </div>
+            <div class="services__item">
+                <i class="fa-solid fa-gear services__icon"></i>
+                <h3 class="services__title">Mantenimiento y soporte</h3>
+                <p class="services__description">Brindaré servicios de mantenimiento continuo, actualizaciones y soporte técnico para garantizar el buen funcionamiento de tu sitio web.</p>
+                <span class="services__no">06</span>
+            </div>
+        </div>
+    </section>
+    <!-- ==================  SKILLS ====================== -->
+    <section class="skills section" id="skills">
+        <h2 class="section__title title-center" data-title="Mi talento">Habilidades Técnicas</h2>
+        <div class="skills__container container grid">
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">HTML & CSS</h3>
+                    <span class="skills__no">70%</span>
+                </div>
+                <p class="skills__description">Conocimiento profundo de HTML5 y CSS3, incluyendo la comprensión de las últimas características y estándares</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 75%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">JAVASCRIPT</h3>
+                    <span class="skills__no">20%</span>
+                </div>
+                <p class="skills__description"> El lenguaje de programación clave para poder realizar las interacciones y dinamismo en la interfaz de la web.</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 20%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">REACT</h3>
+                    <span class="skills__no">10%</span>
+                </div>
+                <p class="skills__description">Tengo amplio conocimiento enfocado en componentes reutilizables y actualizaciones eficientes del estado.</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 10%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">SASS/SCSS</h3>
+                    <span class="skills__no">10%</span>
+                </div>
+                <p class="skills__description">Preprocesadores CSS que brindan funciones y capacidades adicionales para facilitar el desarrollo y el mantenimiento de estilos.</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 10%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">FIGMA</h3>
+                    <span class="skills__no">10%</span>
+                </div>
+                <p class="skills__description"> Es la herramienta de diseño de interfaces de usuario alojada en la nube para crear, colaborar y prototipar los mejores diseños de manera eficiente.</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 10%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills__item">
+                <div class="skills__titles">
+                    <h3 class="skills__name">REDUX</h3>
+                    <span class="skills__no">10%</span>
+                </div>
+                <p class="skills__description">Tengo alta experiencia en el manejo del estado de la aplicación con herramientas como Redux para hacerlo de forma predecible y unidireccional.</p>
+                <div class="skills__bar">
+                    <div class="skills__percentage" style="width: 10%;">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h2 class="section__title title-center">Habilidades Blandas</h2>
+        <div class="skills__container container grid">
+            <div class="skills-core__item">
+                <i class="fa-solid fa-comment skills-core__icon"></i>
+                <h3 class="skills-core__title">Comunicación efectiva</h3>
+                <p class="skills-core__description">Tengo la capacidad de expresar ideas y colaborar con el equipo de desarrollo y otros stakeholders de forma eficiente y clara.</p>
+            </div>
+            <div class="skills-core__item">
+                <i class="fa-solid fa-lightbulb skills-core__icon"></i>
+                <h3 class="skills-core__title">Resolución de problemas</h3>
+                <p class="skills-core__description">Tengo la Aptitud para identificar y solucionar desafíos técnicos de manera eficiente.</p>
+            </div>
+            <div class="skills-core__item">
+                <i class="fa-solid fa-brain skills-core__icon"></i>
+                <h3 class="skills-core__title">Pensamiento crítico</h3>
+                <p class="skills-core__description">Habilidad para evaluar opciones, tomar decisiones fundamentadas y encontrar soluciones creativas a problemas complejos,</p>
+            </div>
+        </div>
+    </section>
+    <!-- ==================  PORFOLIO =================== -->
+    <section class="work section" id="work">
+        <h2 class="section__title title-center" data-title="Portaforlio">Trabajos Destacados</h2>
+        <div class="work__container container grid">
+            <div class="work__card">
+                <img src="/Web-Developer-Porfolio/assets/img/project-img-1.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Tienda en Línea</h3>
+                    <span class="work__description">Tecnologías: React, Node.js y MongoDB. Incluye funcionalidades como búsqueda de productos, carrito de compras, registro de usuarios y procesamiento de pagos.</span>
+                </div>
+            </div>
+            <div class="work__card">
+                <img src="/Web-Developer-Porfolio/assets/img/project-img-2.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Tablero de administración</h3>
+                    <span class="work__description">Framework: React. Incluye gráficos, tablas dinámicas y funciones de gestión de datos.</span>
+                </div>
+            </div>
+            <div class="work__card">
+                <img src="/Web-Developer-Porfolio/assets/img/project-img-3.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Aplicación de clima</h3>
+                    <span class="work__description"> Uso de APIs de servicios meteorológicos. Incluye funcionalidades como búsqueda por ubicación, visualización de datos y diseño atractivo.</span>
+                </div>
+            </div>
+            <div class="work__card">
+                <img src="/Web-Developer-Porfolio/assets/img/project-img-4.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Red social temática</h3>
+                    <span class="work__description">Tecnologías: _____ . Permite a los usuarios registrarse, compartir contenido relacionado, interactuar y seguir a otros usuarios.</span>
+                </div>
+            </div>
+            <div class="work__card">
+                <img src="/Web-Developer-Porfolio/assets/img/project-img-5.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Plataforma de blogging</h3>
+                    <span class="work__description">Los usuarios puedan crear y compartir publicaciones, comentar, clasificar y buscar contenido. Utiliza tecnologías como React, Express y MongoDB.</span>
+                </div>
+            </div>
+            <div class="work__card">
+                <img src="/Web-Developer-Porfolio/assets/img/project-img-6.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Aplicación de lista de tareas</h3>
+                    <span class="work__description"> Permite a los usuarios crear, organizar y marcar tareas como completadas. Tiene funcionalidades como recordatorios, categorías y opciones de personalización.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==================  CONTACT ===================== -->
+    <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Contacto">Hablemos!</h2>
+        <div class="conctact__container container grid">
+            <div class="contact__details">
+                <div class="conctact__item">
+                    <i class="fa-solid fa-phone conctact__icon"></i>
+                    <div>
+                        <h3 class="conctact__title">Llámame</h3>
+                        <span class="conctact__data">+57 3024564063</span>
+                    </div>
+                </div>
+                <div class="conctact__item">
+                    <i class="fa-solid fa-envelope conctact__icon"></i>
+                    <div>
+                        <h3 class="conctact__title">Envíame un correo</h3>
+                        <span class="conctact__data">mamorenoc2@gmail.com</span>
+                    </div>
+                </div>
+                <div class="conctact__item">
+                    <i class="fa-solid fa-location-dot conctact__icon"></i>
+                    <div>
+                        <h3 class="conctact__title">Veámonos</h3>
+                        <span class="conctact__data">Medellín, Antioquia, Colombia</span>
+                    </div>
+                </div>
+            </div>
+            <form action="https://formsubmit.co/mamorenoc2@gmail.com" method="POST" class="contact__form">
+                <div class="form__group">
+                    <div class="form__input">
+                        <input type="text" placeholder="Nombre" class="input__control" name="name" />
+                    </div>
+                    <div class="form__input">
+                        <input type="email" placeholder="Correo" class="input__control" name="email" />
+                    </div>
+                    <div class="form__input">
+                        <input type="text" placeholder="Asunto" class="input__control" name="text" />
+                    </div>
+                    <div class="form__input">
+                        <textarea name="" id="" cols="30" rows="10" class="input__control textarea" name="textarea" placeholder="Escribe tu mensaje aqui"></textarea>
+                    </div>
+                    <button class="btn contact__btn">Enviar Mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    </main>
+    <!-- ==================  FOOTER ===================== -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright"> &copy; 2023 Manuela. All Rights Reserved</p>
+
+            <div class="footer__social-links">
+                <a href="https://twitter.com/mamorenoc2" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/mamorenoc2/" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mamorenoc2/" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/mamorenoc2" target="_blank" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
