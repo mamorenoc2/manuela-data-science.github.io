@@ -8,7 +8,7 @@
     <!-- ==================  FONT AWESOME =============== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- ==================  CSS ======================== -->
-    <link rel="stylesheet" href="/manuela-data-science.github.io/assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <!-- ==================  SWITCHER STYLER ====================== -->
@@ -33,10 +33,10 @@
 
             <ul class="nav__list">
                 <li class="nav__item"><a href="#home" class="nav__link">Inicio</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
-                <li class="nav__item"><a href="#qualification" class="nav__link">Formación</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">Servicios</a></li>
                 <li class="nav__item"><a href="#work" class="nav__link">Portafolio</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Mi Trabajo</a></li>
+                <li class="nav__item"><a href="#qualification" class="nav__link">Formación</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">Sobre mi</a></li>
                 <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
             </ul>
 
@@ -52,165 +52,79 @@
                 <span class="home__small">Hola</span>
                 <h1 class="home__title"><span>Soy</span> Manuela! <br> <span> Amante de los Datos</span></h1>
                 <p class="home__description">
-                    Soy una apasionada científica de datos con un profundo amor por la investigación y la tecnología. Disfruto mucho enfrentando desafíos y trabajando en proyectos emocionantes que requieren pensar de manera creativa y analítica al mismo tiempo. Mi objetivo principal es contribuir al crecimiento y desarrollo de la ciencia de datos, impulsando un impacto positivo en diversas industrias.
+                    Bienvenido a mi página de portafolio, soy una Científica de datos 
                 </p>
                 <div class="home__btns">
                     <a href="#contact" class="btn">Contrátame</a>
-                    <a href="#work" class="btn btn--transparent">Portafolio</a>
 
                 </div>
             </div>
             <div class="home__img-wrapper">
-                <img src="/Web-Developer-Porfolio/assets/img/profile.png" alt="" class="home__img">
+                <img src="./assets/img/profile.png" alt="" class="home__img">
             </div>
         </div>
     </section>
-    <!-- ==================  ABOUT ====================== -->
-    <section class="about section" id="about">
-        <div class="about__container container grid">
-            <div class="about__img-wrapper">
-                <img src="/Web-Developer-Porfolio/assets/img/about.png" alt="About me" class="about__img">
-                
-            </div>
-            <div class="about__container">
-                <h2 class="section__title" data-title="¿Quien soy yo?">
-                    Soy Manuela Moreno, una Desarrolladora Web Enfocada en Front-End
-                </h2>
-                <p class="about__description"> Soy una persona apasionada por el mundo de los datos con una curiosidad innata y un amor por la investigación que ha estado conmigo desde que era una niña pequeña. Siempre he estado fascinada por el mundo que me rodea y disfruto explorando y buscando respuestas a preguntas intrigantes. Mi curiosidad natural me ha llevado a seguir una carrera en ciencia de datos, donde puedo combinar mi amor por la exploración y el descubrimiento con mi fascinación por la tecnología. </p>
-                <p class="about__description_2">Lo que más me apasiona de la ciencia de datos es la capacidad de explorar y analizar datos de manera creativa, descubriendo información valiosa que puede tener un impacto positivo en diversos campos. Me encanta sumergirme en los datos, encontrar patrones ocultos y contar historias a través de la visualización de datos. Estoy emocionada por continuar aprendiendo y creciendo en este campo y utilizar mi experiencia en ciencia de datos para abordar desafíos complejos y generar un impacto positivo.</p>
-
-                <ul class="about__data grid">
-                    <li class="data__item">
-                        <h3 class="data__title">Nombre:</h3>
-                        <span class="data__description">Manuela Moreno Cordoba</span>
-                    </li>
-                    <li class="data__item">
-                        <h3 class="data__title">Edad:</h3>
-                        <span class="data__description">21 años</span>
-                    </li>
-                    <li class="data__item">
-                        <h3 class="data__title">Desde:</h3>
-                        <span class="data__description">Antioquia - Colombia</span>
-                    </li>
-                    <li class="data__item">
-                        <h3 class="data__title">Correo:</h3>
-                        <span class="data__description">mamorenoc2@gmail.com</span>
-                    </li>
-                </ul>
-                <div class="about__bottom">
-                    <a href="" class="btn">Descarga mi CV</a>
-    
-                    <div class="about__social-links">
-                        <a href="https://twitter.com/mamorenoc2" target="_blank" class="about__social-link">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="https://www.instagram.com/mamorenoc2/" target="_blank" class="about__social-link">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/mamorenoc2/" target="_blank" class="about__social-link">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/mamorenoc2" target="_blank" class="about__social-link">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </div>
+    <!-- ==================  PORFOLIO =================== -->
+    <section class="work section" id="work">
+        <h2 class="section__title title-center" data-title="Portaforlio">Trabajos Destacados</h2>
+        <div class="work__container container grid">
+            <div class="work__card">
+                <img src="./assets/img/project-img-1.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Seguro médico en EE. UU.</h3>
+                    <br>
+                    <span class="work__description"> Proyecto para ordenar y analizar datos sobre los costos del seguro médico en EE. UU.</span>
+                    <br>
+                    <span class="work__description"><strong>Tecnologías:</strong> Python</span>
                 </div>
             </div>
-            
-
-            
-        </div>
-    </section>
-    <!-- ==============  QUALIFICATION =================== -->
-    <section class="qualification section" id="qualification">
-        <h2 class="section__title title-center" data-title="Mi Recorrido">Formación</h2>
-        <div class="resume__container container grid">
-            <div class="resume__group">
-                <h3 class="resume__heading">Educación</h3>
-                <div class="resume__items">
-                    <div class="resume__item">
-                        <div class="resume__header">
-                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
-                        </div>
-                        <div class="resume__content">
-                            <div class="resume__date-title">
-                                <h3 class="resume__title">Ingeniería en Sistemas</h3>
-                                <span class="resume__date">2020 - Presente</span>
-                            </div>
-                                <p class="resume__description">Ingeniería de Sistemas ofrece una formación integral en las áreas fundamentales de la computación, formando profesionales que entiendan las necesidades de la sociedad y las organizaciones, con el fin de proponer soluciones eficientes e innovadoras basadas en la computación. </p>
-                        </div>
-                    </div>
-                    <div class="resume__item">
-                        <div class="resume__header">
-                            <a class="resume__subtitle" href="https://www.codecademy.com/" target="_blank">Codecademy</a>
-                        </div>
-                        <div class="resume__content">
-                            <div class="resume__date-title">
-                                <h3 class="resume__title">Data Scientist: Machine Learning</h3>
-                                <span class="resume__date">Nov 2022 - Sep 2023</span>
-                            </div>
-                            <p class="resume__description">En este curso de certificación profesional, se aprende los fundamentos de la ciencia de datos, luego se profundiza en la elaboración de predicciones con aprendizaje automático e incluso en la creación de redes neuronales. Organizo datos complejos: con el uso de NumPy, pandas y SQL para hablar con bases de datos y manipular tablas. Sumerjirse en el aprendizaje automático: creación modelos que puedan automatizar procesos, reconocer patrones y hacer recomendaciones. Preparación de carrera: prepárese para el trabajo con proyectos de portafolio y assestments</p>
-                        </div>
-                    </div>
-                    <div class="resume__item">
-                        <div class="resume__header">
-                            <a class="resume__subtitle" href="https://platzi.com/" target="_blank">Platzi</a>
-                        </div>
-                        <div class="resume__content">
-                            <div class="resume__date-title">
-                                <h3 class="resume__title">Data Analyst</h3>
-                                <span class="resume__date">May 2023 - Jul 2023</span>
-                            </div>
-                            <p class="resume__description">En la ruta de aprendizaje de Data Analyst se responde preguntas que agreguen valor a la organización a través de datos. Extrae datos recolectados y los analiza para buscar información valiosa para generar estrategias. Las presenta usando storytelling y dashboards con gráficas que ayudan a la toma de decisiones de negocio a otras personas de la organización.Con herramientas como SQL, Excel, Power BI y lenguajes de programación como R y Python forman parte de herramientas usadas por analistas de datos.</p>
-                        </div>
-                    </div>
-                    <div class="resume__item">
-                        <div class="resume__header">
-                            <a class="resume__subtitle" href="https://platzi.com/" target="_blank">Platzi</a>
-                        </div>
-                        <div class="resume__content">
-                            <div class="resume__date-title">
-                                <h3 class="resume__title">Data Scientist con Python</h3>
-                                <span class="resume__date">Jul 2023 - Sep 2023</span>
-                            </div>
-                            <p class="resume__description">En la ruta de aprendizaje de Data Scientist la idea es entiender el negocio y sus datos para poder responder preguntas que agreguen valor a la organización. Colabora con la creación de modelos de machine learning para integrarlos a aplicaciones de software. Utiliza lenguajes de programación como Python, bases de datos SQL como PostgreSQL y NoSQL como MongoDB y Elasticsearch. Tienen un conocimiento de matemáticas aplicadas a data science y de algoritmos de machine learning.</p>
-                        </div>
-                    </div>
+            <div class="work__card">
+                <img src="./assets/img/project-img-2.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">PIB y experanza de vida</h3>
+                    <br>
+                    <span class="work__description">Proyecto de visualización de datos para analizar y trazar datos sobre el PIB y la esperanza de vida.</span>
+                    <br>
+                    <span class="work__description"><strong>Tecnologías:</strong> Python</span>
                 </div>
             </div>
-            <div class="resume__group">
-                <h3 class="resume__heading">Experiencia y Competencias</h3>
-                <div class="resume__items">
-                    <div class="resume__item">
-                        <div class="resume__header">
-                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
-                        </div>
-                        <div class="resume__content">
-                            <div class="resume__date-title">
-                                <h3 class="resume__title">Desarrolladora web Junior</h3>
-                                <span class="resume__date">Ene 2023 - Presente</span>
-                            </div>
-                                <p class="resume__description">NOVA es un grupo estudiantil de la Universidad EAFIT, enfocado en el área de tecnología e innovación; Es un espacio para aprender, crear y transmitir conocimientos sobre nuevas tecnologías, desarrollo y programación de software, así como temas relevantes de la industria 4.0. </p>
-                        </div>
-                    </div>
-                    <div class="resume__item">
-                        <div class="resume__header">
-                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
-                        </div>
-                        <div class="resume__content">
-                            <div class="resume__date-title">
-                                <h3 class="resume__title">Miembro</h3>
-                                <span class="resume__date">Ago 2021 - Presente</span>
-                            </div>
-                                <p class="resume__description">La Organización Estudiantil, creada en 1987, es ahora el grupo estudiantil más grande de la Universidad EAFIT, el cual te ofrece una experiencia cercana a una organización real, permitiéndote conocer y trabajar en las áreas de mercadeo, finanzas, gestión humana y logística, especialmente en Ingenieria en sistemas. </p>
-                        </div>
-                    </div>
+            <div class="work__card">
+                <img src="./assets/img/project-img-3.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Biodiversidad en Parques Nacionales</h3>
+                    <br>
+                    <span class="work__description"> Proyecto de análisis de datos para interpretar datos sobre animales en peligro de extinción para el Servicio de Parques Nacionales.</span>
+                    <br>
+                    <span class="work__description"><strong>Tecnologías:</strong> Python</span>
+                </div>
+            </div>
+            <div class="work__card">
+                <img src="./assets/img/project-img-4.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">OK-Cupido</h3>
+                    <br>
+                    <span class="work__description"> Proyecto de aprendizaje automático para crear, entrenar y probar las predicciones que extraiga sobre los datos de OK-Cupido.</span>
+                    <br>
+                    <span class="work__description"><strong>Tecnologías:</strong> Machine Learning - Python</span>
+                </div>
+            </div>
+            <div class="work__card">
+                <img src="./assets/img/project-img-5.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Plataforma de blogging</h3>
+                    <span class="work__description">Los usuarios puedan crear y compartir publicaciones, comentar, clasificar y buscar contenido. Utiliza tecnologías como React, Express y MongoDB.</span>
+                </div>
+            </div>
+            <div class="work__card">
+                <img src="./assets/img/project-img-6.jpg" alt="Imagen proyecto 1" class="work__img">
+                <div class="work__details">
+                    <h3 class="work__title">Aplicación de lista de tareas</h3>
+                    <span class="work__description"> Permite a los usuarios crear, organizar y marcar tareas como completadas. Tiene funcionalidades como recordatorios, categorías y opciones de personalización.</span>
                 </div>
             </div>
         </div>
     </section>
     <!-- ==================  SERVICES ==================== -->
-
     <section class="services section" id="services">
         <h2 class="section__title title-center" data-title="Lo que haré por tí">¿Por qué contratarme?</h2>
         <div class="services__container container grid">
@@ -349,52 +263,148 @@
             </div>
         </div>
     </section>
-    <!-- ==================  PORFOLIO =================== -->
-    <section class="work section" id="work">
-        <h2 class="section__title title-center" data-title="Portaforlio">Trabajos Destacados</h2>
-        <div class="work__container container grid">
-            <div class="work__card">
-                <img src="/Web-Developer-Porfolio/assets/img/project-img-1.jpg" alt="Imagen proyecto 1" class="work__img">
-                <div class="work__details">
-                    <h3 class="work__title">Tienda en Línea</h3>
-                    <span class="work__description">Tecnologías: React, Node.js y MongoDB. Incluye funcionalidades como búsqueda de productos, carrito de compras, registro de usuarios y procesamiento de pagos.</span>
+    <!-- ==============  QUALIFICATION =================== -->
+    <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="Mi Recorrido">Formación</h2>
+        <div class="resume__container container grid">
+            <div class="resume__group">
+                <h3 class="resume__heading">Educación</h3>
+                <div class="resume__items">
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Ingeniería en Sistemas</h3>
+                                <span class="resume__date">2020 - Presente</span>
+                            </div>
+                                <p class="resume__description">Ingeniería de Sistemas ofrece una formación integral en las áreas fundamentales de la computación, formando profesionales que entiendan las necesidades de la sociedad y las organizaciones, con el fin de proponer soluciones eficientes e innovadoras basadas en la computación. </p>
+                        </div>
+                    </div>
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://www.codecademy.com/" target="_blank">Codecademy</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Data Scientist: Machine Learning</h3>
+                                <span class="resume__date">Nov 2022 - Sep 2023</span>
+                            </div>
+                            <p class="resume__description">En este curso de certificación profesional, se aprende los fundamentos de la ciencia de datos, luego se profundiza en la elaboración de predicciones con aprendizaje automático e incluso en la creación de redes neuronales. Organizo datos complejos: con el uso de NumPy, pandas y SQL para hablar con bases de datos y manipular tablas. Sumerjirse en el aprendizaje automático: creación modelos que puedan automatizar procesos, reconocer patrones y hacer recomendaciones. Preparación de carrera: prepárese para el trabajo con proyectos de portafolio y assestments</p>
+                        </div>
+                    </div>
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://platzi.com/" target="_blank">Platzi</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Data Analyst</h3>
+                                <span class="resume__date">May 2023 - Jul 2023</span>
+                            </div>
+                            <p class="resume__description">En la ruta de aprendizaje de Data Analyst se responde preguntas que agreguen valor a la organización a través de datos. Extrae datos recolectados y los analiza para buscar información valiosa para generar estrategias. Las presenta usando storytelling y dashboards con gráficas que ayudan a la toma de decisiones de negocio a otras personas de la organización.Con herramientas como SQL, Excel, Power BI y lenguajes de programación como R y Python forman parte de herramientas usadas por analistas de datos.</p>
+                        </div>
+                    </div>
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://platzi.com/" target="_blank">Platzi</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Data Scientist con Python</h3>
+                                <span class="resume__date">Jul 2023 - Sep 2023</span>
+                            </div>
+                            <p class="resume__description">En la ruta de aprendizaje de Data Scientist la idea es entiender el negocio y sus datos para poder responder preguntas que agreguen valor a la organización. Colabora con la creación de modelos de machine learning para integrarlos a aplicaciones de software. Utiliza lenguajes de programación como Python, bases de datos SQL como PostgreSQL y NoSQL como MongoDB y Elasticsearch. Tienen un conocimiento de matemáticas aplicadas a data science y de algoritmos de machine learning.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="work__card">
-                <img src="/Web-Developer-Porfolio/assets/img/project-img-2.jpg" alt="Imagen proyecto 1" class="work__img">
-                <div class="work__details">
-                    <h3 class="work__title">Tablero de administración</h3>
-                    <span class="work__description">Framework: React. Incluye gráficos, tablas dinámicas y funciones de gestión de datos.</span>
+            <div class="resume__group">
+                <h3 class="resume__heading">Experiencia y Competencias</h3>
+                <div class="resume__items">
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Desarrolladora web Junior</h3>
+                                <span class="resume__date">Ene 2023 - Presente</span>
+                            </div>
+                                <p class="resume__description">NOVA es un grupo estudiantil de la Universidad EAFIT, enfocado en el área de tecnología e innovación; Es un espacio para aprender, crear y transmitir conocimientos sobre nuevas tecnologías, desarrollo y programación de software, así como temas relevantes de la industria 4.0. </p>
+                        </div>
+                    </div>
+                    <div class="resume__item">
+                        <div class="resume__header">
+                            <a class="resume__subtitle" href="https://www.eafit.edu.co/" target="_blank">Universidad EAFIT</a>
+                        </div>
+                        <div class="resume__content">
+                            <div class="resume__date-title">
+                                <h3 class="resume__title">Miembro</h3>
+                                <span class="resume__date">Ago 2021 - Presente</span>
+                            </div>
+                                <p class="resume__description">La Organización Estudiantil, creada en 1987, es ahora el grupo estudiantil más grande de la Universidad EAFIT, el cual te ofrece una experiencia cercana a una organización real, permitiéndote conocer y trabajar en las áreas de mercadeo, finanzas, gestión humana y logística, especialmente en Ingenieria en sistemas. </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="work__card">
-                <img src="/Web-Developer-Porfolio/assets/img/project-img-3.jpg" alt="Imagen proyecto 1" class="work__img">
-                <div class="work__details">
-                    <h3 class="work__title">Aplicación de clima</h3>
-                    <span class="work__description"> Uso de APIs de servicios meteorológicos. Incluye funcionalidades como búsqueda por ubicación, visualización de datos y diseño atractivo.</span>
+        </div>
+    </section>
+    <!-- ==================  ABOUT ====================== -->
+    <section class="about section" id="about">
+        <div class="about__container container grid">
+            <div class="about__img-wrapper">
+                <img src="./assets/img/about.png" alt="About me" class="about__img">
+                
+            </div>
+            <div class="about__container">
+                <h2 class="section__title" data-title="¿Quien soy yo?">
+                    Soy Manuela! una Científica con Curiosidad Innata
+                </h2>
+                <p class="about__description"> He estado enamorada de la investigación desde que era una niña pequeña. Siempre he estado fascinada por el mundo que me rodea y disfruto explorando y buscando respuestas a preguntas intrigantes. Mi curiosidad natural me ha llevado a seguir una carrera en ciencia de datos, donde puedo combinar mi amor por la exploración y el descubrimiento con mi fascinación por la tecnología. </p>
+                <p class="about__description_2">Lo que más me apasiona de la ciencia de datos es la capacidad de explorar y analizar datos de manera creativa, descubriendo información valiosa que puede tener un impacto positivo en diversos campos. Me encanta sumergirme en los datos, encontrar patrones ocultos y contar historias a través de la visualización de datos. Estoy emocionada por continuar aprendiendo y creciendo en este campo y utilizar mi experiencia en ciencia de datos para abordar desafíos complejos y generar un impacto positivo.</p>
+
+                <ul class="about__data grid">
+                    <li class="data__item">
+                        <h3 class="data__title">Nombre:</h3>
+                        <span class="data__description">Manuela Moreno Cordoba</span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">Edad:</h3>
+                        <span class="data__description">22 años</span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">Desde:</h3>
+                        <span class="data__description">Antioquia - Colombia</span>
+                    </li>
+                    <li class="data__item">
+                        <h3 class="data__title">Correo:</h3>
+                        <span class="data__description">mamorenoc2@gmail.com</span>
+                    </li>
+                </ul>
+                <div class="about__bottom">
+                    <a href="" class="btn">Descarga mi CV</a>
+    
+                    <div class="about__social-links">
+                        <a href="https://twitter.com/mamorenoc2" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mamorenoc2/" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mamorenoc2/" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/mamorenoc2" target="_blank" class="about__social-link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="work__card">
-                <img src="/Web-Developer-Porfolio/assets/img/project-img-4.jpg" alt="Imagen proyecto 1" class="work__img">
-                <div class="work__details">
-                    <h3 class="work__title">Red social temática</h3>
-                    <span class="work__description">Tecnologías: _____ . Permite a los usuarios registrarse, compartir contenido relacionado, interactuar y seguir a otros usuarios.</span>
-                </div>
-            </div>
-            <div class="work__card">
-                <img src="/Web-Developer-Porfolio/assets/img/project-img-5.jpg" alt="Imagen proyecto 1" class="work__img">
-                <div class="work__details">
-                    <h3 class="work__title">Plataforma de blogging</h3>
-                    <span class="work__description">Los usuarios puedan crear y compartir publicaciones, comentar, clasificar y buscar contenido. Utiliza tecnologías como React, Express y MongoDB.</span>
-                </div>
-            </div>
-            <div class="work__card">
-                <img src="/Web-Developer-Porfolio/assets/img/project-img-6.jpg" alt="Imagen proyecto 1" class="work__img">
-                <div class="work__details">
-                    <h3 class="work__title">Aplicación de lista de tareas</h3>
-                    <span class="work__description"> Permite a los usuarios crear, organizar y marcar tareas como completadas. Tiene funcionalidades como recordatorios, categorías y opciones de personalización.</span>
-                </div>
-            </div>
+            
+
+            
         </div>
     </section>
     <!-- ==================  CONTACT ===================== -->
